@@ -1,5 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;500&family=Inter&family=Overpass:wght@400;700&display=swap");
 .why-us {
   width: 1418px;
+  height: 610px;
   margin: 0 auto;
-  background-color: rgb(38, 141, 231);
+  background-color: rgb(211, 228, 243);
+  text-align: center;
+  border: 1px solid #000;
+  overflow: hidden;
+}
+.why-us__title {
+  font-family: "Fira Sans Condensed";
+  font-size: 38px;
+  font-weight: 400;
+  margin-top: 16px;
+  margin-left: 35px;
+  background-color: rgb(181, 218, 250);
+}
+.why-us__img {
+  width: 582px;
+  height: 610px;
+  float: left;
+  background-color: blue;
+  position: relative;
+  top: -100px;
+}
+.why-us__text {
+  background-color: rgb(215, 238, 6);
+  width: 678px;
+  height: 324px;
+  margin-left: 662px;
+  margin-top: 57px;
+  text-align: left;
+  font-family: "Overpass";
+  font-weight: 400;
+  line-height: 18px;
+  line-height: 100%;
+  font-size: 14px;
+}
+.why-us__text--red {
+  background-color: rgb(232, 243, 135);
+  text-align: left;
+  font-family: "Overpass";
+  font-weight: 400;
+  line-height: 18px;
+  line-height: 100%;
+  font-size: 14px;
+  color: red;
 }
