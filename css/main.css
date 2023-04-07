@@ -3,9 +3,7 @@
   width: 1418px;
   height: 610px;
   margin: 0 auto;
-  background-color: rgb(211, 228, 243);
   text-align: center;
-  border: 1px solid #000;
   overflow: hidden;
 }
 .why-us__title {
@@ -14,18 +12,15 @@
   font-weight: 400;
   margin-top: 16px;
   margin-left: 35px;
-  background-color: rgb(181, 218, 250);
 }
 .why-us__img {
   width: 582px;
   height: 610px;
   float: left;
-  background-color: blue;
   position: relative;
   top: -100px;
 }
 .why-us__text {
-  background-color: rgb(215, 238, 6);
   width: 678px;
   height: 324px;
   margin-left: 662px;
@@ -38,7 +33,6 @@
   font-size: 14px;
 }
 .why-us__text--red {
-  background-color: rgb(232, 243, 135);
   text-align: left;
   font-family: "Overpass";
   font-weight: 400;
@@ -46,4 +40,8 @@
   line-height: 100%;
   font-size: 14px;
   color: red;
+}
+.why-us__knopka {
+  position: relative;
+  left: -300px;
 }
